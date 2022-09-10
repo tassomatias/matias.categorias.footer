@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nucba Zappi</title>
+</head>
+
+<body>
+    <header>
+        <!-- Logo de nucba zappi -->
+        <img src="./assets/header/logo.png" alt="logo-nucba-zappi">
+
+        <!-- Barra de navegación con sección home / carrito / perfil  -->
+        <nav class="header-nav">
+            <ul class="nav-items">
+                <li class="home-ico">
+                    <a href="#">
+                        <img src="./assets/header/Home.png" alt="home">
+                        <p>Home</p>
+                    </a>
+                </li>
+
+                <li class="cart-ico">
+
+                    <a href="#">
+                        <!-- Este div va a ser el circulo que tiene el numerito 7 -->
+                        <div class="cart-add"></div>
+
+                        <!-- Cuerpo del carrito -->
+                        <img src="./assets/header/cart/Fill 7.png" alt="cart">
+
+                        <!-- Ruedas del carrito hechas en CSS-->
+                        <div class="cart-wheels">
+                            <div class="cart-wheel"></div>
+                            <div class="cart-wheel"></div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="profile-ico">
+                    <a href="#">
+                        <!-- Este div va a ser la cabezita del icono de perfil -->
+                        <div class="prof-head"></div>
+
+                        <!-- Este div va a ser el cuerpo del icono de perfil -->
+                        <div class="prof-body"></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <!-- Sección hero con info principal de la página. -->
+            <div class="hero-info">
+                <h1>Si tenes Zappi,</h1>
+                <h2>tenes Nucba.</h2>
+                <p>Buscá lo que quieras y nucba te quedes sin comida.</p>
+                <button>VER MÁS</button>
+            </div>
+
+            <!-- Sección hero con imagenes de las pizzas -->
+            <div class="hero-imgs">
+                <img src="./assets/zappi 1.png" alt="zappi1">
+                <img src="./assets/zappi 2.png" alt="zappi2">
+            </div>
+        </section>
+
+        <section id="sugest">
+            <h3>Hoy te recomendamos</h3>
+
+            <!-- Menu de sugerencias - Div contenedor -->
+            <div class="sugest-sect">
+
+                <!-- Contenedor de opciones del menu Se Triplica el código pero se usan las mismas clases y distintas imagenes. -->
+
+                <!-- Div -Bannaziana -->
+                <div class="sug-option">
+                    <img src="./assets/menu-pizza/bannaziana.png" alt="bannaziana">
+
+                    <div class="option-info">
+                        <p class="opt-tittle">
+                            Bennazianna
+                        </p>
+                        <p class="opt-mid">
+                            La más completa
+                        </p>
+
+                        <p class="opt-price">
+                            $3650
+                        </p>
+                    </div>
+
+                    <button>Agregar</button>
+                </div>
+
+                <!-- DIV Tronco-Pizza -->
+                <div class="sug-option">
+                    <img src="./assets/menu-pizza/tronco-pizza.png" alt="tronco-pizza">
+
+                    <div class="option-info">
+                        <p class="opt-tittle">
+                            Tronco-Pizza
+                        </p>
+                        <p class="opt-mid">
+                            Para todo el día
+                        </p>
+
+                        <p class="opt-price">
+                            $870
+                        </p>
+                    </div>
+
+                    <button>Agregar</button>
+                </div>
+
+                <!-- DIV Papas | Provenzal -->
+                <div class="sug-option">
+                    <img src="./assets/menu-pizza/papas-provenzal.png" alt="papas-provenzal">
+
+                    <div class="option-info">
+                        <p class="opt-tittle">
+                            Papas|Provenzal
+                        </p>
+                        <p class="opt-mid">
+                            Van como piña
+                        </p>
+
+                        <p class="opt-price">
+                            $360
+                        </p>
+                    </div>
+
+                    <button>Agregar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories">
+            <h3>Categorías</h3>
+
+            <!-- Div contenedor de categorias -->
+            <div class="categorie-container">
+
+                <!-- Div contenedor de las opciones dentro de categorias / Se multiplica el codigo 7 veces manteniendo la clase igual pero cambian imagenes y texto -->
+
+                <!-- Div Pizzas -->
+                <div class="cat-option">
+                    <img src="./assets/categories/pizza 1.png" alt="pizza1">
+                    <p>Pizzas</p>
+
+                    <!-- Div de la barra inferior en categorias que tiene un gradiente de dos colores -->
+                    <div class="opt-bar">
+                    </div>
+                </div>
+
+                <!-- Div Hamburguesas -->
+                <div class="cat-option">
+                    <img src="./assets/categories/burger 1.png" alt="burger">
+                    <p>Hamburguesas</p>
+
+                    <!-- Div de la barra inferior en categorias que tiene un gradiente de dos colores -->
+                    <div class="opt-bar">
+                    </div>
+                </div>
+
+                <!-- Div Napapuki -->
+                <div class="cat-option">
+                    <img src="./assets/categories/fries 2.png" alt="Napapuki">
+                    <p>Napapuki</p>
+
+                    <!-- Div de la barra inferior en categorias que tiene un gradiente de dos colores -->
+                    <div class="opt-bar">
+                    </div>
+                </div>
+
+                <!-- Div Individuales -->
+                <div class="cat-option">
+                    <img src="./assets/categories/pizza 2.png" alt="pizza2">
+                    <p>Individuales</p>
+
+                    <!-- Div de la barra inferior en categorias que tiene un gradiente de dos colores -->
+                    <div class="opt-bar">
+                    </div>
+                </div>
+
+                <!-- Div Wraps  -->
+                <div class="cat-option">
+                    <img src="./assets/categories/buritto 1.png" alt="Wraps">
+                    <p>Wraps</p>
+
+                    <!-- Div de la barra inferior en categorias que tiene un gradiente de dos colores -->
+                    <div class="opt-bar">
+                    </div>
+                </div>
+
+                <!-- Div Mexican Food -->
+                <div class="cat-option">
+                    <img src="./assets/categories/taco 1.png" alt="Mexican-food">
+                    <p>Mexican Food</p>
+
+                    <!-- Div de la barra inferior en categorias que tiene un gradiente de dos colores -->
+                    <div class="opt-bar">
+                    </div>
+                </div>
+
+                <!-- Div Batidukis -->
+                <div class="cat-option">
+                    <img src="./assets/categories/milkshake.png" alt="Batiduki">
+                    <p>Batidukis</p>
+
+                    <!-- Div de la barra inferior en categorias que tiene un gradiente de dos colores -->
+                    <div class="opt-bar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="popular">
+            <h3>Los más populares</h3>
+
+            <!-- Div contenedor de opciones populares -->
+            <div class="pop-sect">
+                <!-- Div de items populares, se multiplica por 8 el codigo, se mantienen mismas clases. Cambian imagenes y texto. -->
+
+                <!-- Div La Mr. Pit -->
+                <div class="pop-item">
+                    <img src="./assets/populars/mr-pit.png" alt="mr-pit">
+
+                    <!-- Información del item -->
+                    <div class="item-info">
+                        <p>La Mr. Pit</p>
+                        <span>Solo para expertos</span>
+                    </div>
+
+                    <!-- Precio y botón de agregar-->
+                    <div class="item-price">
+                        <p>$ 350</p>
+                        <button>Agregar</button>
+                    </div>
+
+                </div>
+
+                <!-- Div Q jamone -->
+                <div class="pop-item">
+                    <img src="./assets/populars/q-jamone.png" alt="q-jamone">
+
+                    <!-- Información del item -->
+                    <div class="item-info">
+                        <p>¡Q'Jamone!</p>
+                        <span>c/jamón crudo</span>
+                    </div>
+
+                    <!-- Precio y botón de agregar-->
+                    <div class="item-price">
+                        <p>$ 350</p>
+                        <button>Agregar</button>
+                    </div>
+
+                </div>
+
+                <!-- Div Charly Garcia -->
+                <div class="pop-item">
+                    <img src="./assets/populars/charly-garcia.png" alt="charly-garcia">
+
+                    <!-- Información del item -->
+                    <div class="item-info">
+                        <p>La Charly Garcia</p>
+                        <span>¡BASTA!</span>
+                    </div>
+
+                    <!-- Precio y botón de agregar-->
+                    <div class="item-price">
+                        <p>$ 380</p>
+                        <button>Agregar</button>
+                    </div>
+
+                </div>
+
+                <!-- Div Maradonna -->
+                <div class="pop-item">
+                    <img src="./assets/populars/maradonna.png" alt="maradonna">
+
+                    <!-- Información del item -->
+                    <div class="item-info">
+                        <p>La Maradonna</p>
+                        <span>¡Eterna!</span>
+                    </div>
+
+                    <!-- Precio y botón de agregar-->
+                    <div class="item-price">
+                        <p>$ 450</p>
+                        <button>Agregar</button>
+                    </div>
+
+                </div>
+
+                <!-- Div Picantovich -->
+                <div class="pop-item">
+                    <img src="./assets/populars/picantovich.png" alt="picantovich">
+
+                    <!-- Información del item -->
+                    <div class="item-info">
+                        <p>Picantovich</p>
+                        <span>Pica 2 veces</span>
+                    </div>
+
+                    <!-- Precio y botón de agregar-->
+                    <div class="item-price">
+                        <p>$ 750</p>
+                        <button>Agregar</button>
+                    </div>
+
+                </div>
+
+                <!-- Div Hasbulla -->
+                <div class="pop-item">
+                    <img src="./assets/populars/hasbulla.png" alt="hasbulla">
+
+                    <!-- Información del item -->
+                    <div class="item-info">
+                        <p>La Hasbulla</p>
+                        <span>En honor al 1</span>
+                    </div>
+
+                    <!-- Precio y botón de agregar-->
+                    <div class="item-price">
+                        <p>$ 990</p>
+                        <button>Agregar</button>
+                    </div>
+
+                </div>
+
+                <!-- Div Messi -->
+                <div class="pop-item">
+                    <img src="./assets/populars/lio-messi.png" alt="lio-messi">
+
+                    <!-- Información del item -->
+                    <div class="item-info">
+                        <p>Leo Messi</p>
+                        <span>¡De pié señores!</span>
+                    </div>
+
+                    <!-- Precio y botón de agregar-->
+                    <div class="item-price">
+                        <p>$ 10</p>
+                        <button>Agregar</button>
+                    </div>
+
+                </div>
+
+                <!-- Div Nick Gi -->
+                <div class="pop-item">
+                    <img src="./assets/populars/nick-gi.png" alt="nick-gi">
+
+                    <!-- Información del item -->
+                    <div class="item-info">
+                        <p>Nick Gi</p>
+                        <span>La que desaparece</span>
+                    </div>
+
+                    <!-- Precio y botón de agregar-->
+                    <div class="item-price">
+                        <p>$ Gratis</p>
+                        <button>Agregar</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Pie de la página -->
+    <footer>
+        <!-- Barra de navegación con links del footer -->
+        <nav class="footer-nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        Términos de Uso
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Trabajá con Nosotros
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Soporte
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- SEPARACIÓN DEL TEXTO CON SPAN para cambiar el font-weight en CSS -->
+        <h4>Hecho con ❤ en <span>NUCBAZAPPI</span></h4>
+    </footer>
+</body>
+
+</html>
