@@ -16,3 +16,103 @@
     -webkit-box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Categorías */
+.tith3 {
+    position: absolute;
+    width: 87px;
+    height: 20px;
+    left: 120px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 131.02%;
+    margin: -50px 15px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.categorie-container{
+    display: flex;
+    gap: 36px;
+    margin-left: 116px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.product{
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 38px;
+    padding-bottom: 75px;
+}
+
+
+.cat-option{
+    width: 147px;
+    height: 171px;
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+}
+
+.name{
+    color: aliceblue;
+    margin: -50% 0% 0% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.namepizza{
+    color: aliceblue;
+    margin: -42% 0% 0% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.opt-bar{
+    width: 35px;
+    height: 6px;
+    margin: 10% 0% 0% 40%;
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+}
+
+body{
+    background: #131415;
+    box-shadow: 0px 48px 128px rgba(0, 0, 0, 0.4);
+    
+}
+
+/*footer*/
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-decoration: none;
+    place-content: center;
+}
+
+footer nav ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+footer nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+footer h4{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
